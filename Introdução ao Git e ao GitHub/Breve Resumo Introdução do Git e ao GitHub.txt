@@ -1,0 +1,80 @@
+Introdução ao Git e ao GitHub 
+
+O guit foi criado por Linux foi criado por LINUS TORVALDS de forma colaborativa distribuída no mundo inteiro.
+benefícios do Git e GitHub
+
+•	Controle de versão
+•	armazenamento em nuvem
+•	trabalho em equipe
+•	melhorar seu código
+•	reconhecimento
+
+
+Navegação via command line interface e instalaçoes.
+O que vamos aprender?
+
+•	Mudar de pasta
+•	listar as pastas
+•	criar pasta / arquivos
+•	deletar pasta / arquivos
+
+Comandos no Windows                   
+1.	cd
+2.	mkdir
+3.	dir
+4.	del / rmdir
+
+
+Comandos Unix
+1.	cd
+2.	ls
+3.	rm
+
+
+Descrição de alguns comandos.
+Primeiro comando de navegação
+
+comando para listar – dir
+comando para navegar – cd
+comando para listar – ls
+comando para voltar – cd ..
+comando para limpar diretório – cls / Ctrl + l
+Comando para criar pasta – mkdir
+comando para criar arquivos – echo nome > arquivo
+Comando para deletar – del
+comando para remover repositório com todos os arquivos dentro - > rmdir nome da pasta /S /Q
+
+Alguns tópicos importantes sobre o Git em suas funções.
+
+•	SHA1 algoritmo decriptação
+•	objetos fundamentais
+•	sistema distribuído
+•	segurança
+
+
+A encriptação gera conjunto de caracteres identificados de 40 dígitos sendo únicos.
+
+SHA1 - é uma forma curta de representar um arquivo
+
+Objetos internos do Git
+São: BLOBS, TREES E COMMITS
+BLOBS - Guarda arquivos Gerando a a criptografia e contêm metadados do GIT que são tipos de objetos.
+TREES - Armazenam as blobs contém metadados que apontam para o os blobs, que tem o SHAR1 e o Tree e estrutura de onde estão os arquivos e apontam tanto para Blobs como também para outras Trees
+COMMIT - Objeto que junta todos.
+O SHAR1 desse commit é o hash de Toda essa informação.
+Se você mudar qualquer arquivo os SHAR1 de toda a rede de commit, Trees e Blobs são alterados pelo histórico Tem uma segurança no controle de privacidade.
+
+Porque o Git é um sistema distribuído e seguro?
+É confiável por que espelha em um repositório versões confiáveis.
+Chaves SSH e Tokesns
+•	pesquisar mais e estudar sobre isso
+Primeiros comandos com Git
+1.	Iniciar o Git
+2.	iniciar o o versionamento
+3.	criar um Commit
+•	git init
+•	git add
+•	git commit
+•	git vm
+
+Esse foi um breve resumo sobre o estudo do Git/giHub. Muito Obrigado.
